@@ -1,4 +1,4 @@
-package oopClass.sec01;
+package oopClass.sec08;
 
 // 사용자 정의 클래스 생성: 개발자가 필요한 변수 (필드/속성), 함수(메서드)저으이
 // 데이터를 다루기 위한 변수: 멤버변수
@@ -13,15 +13,13 @@ public class Car {
     private int carCC; // 배기량
     // private: 접근제한자, 클랴스 외부에서 변수가 있는 모르게 숨겨놓는 것(데이터 은닉)
 
-    // 멤버 메소드
-    // (1) 멤버 변수에 데이터 저장하는 메소드 - 직접 저장
-//    public void setCarInfo() {
-//        carNo = "11가1234"; // private 멤버션수 : 클래스 내부에서는 접근 가능
-//        carName = "아반떼";
-//        carMaker = "현대";
-//        carYear = 2020;
-//        carCC = 1500;
-//    }
+    public Car(String carNo, String carName, String carMaker, int carYear, int carCC) {
+        this.carNo = carNo;
+        this.carName = carName;
+        this.carMaker = carMaker;
+        this.carYear = carYear;
+        this.carCC = carCC;
+    }
 
     public void setCarInfo(String no, String name, String maker, int year, int cc) {
         carNo = no; // private 멤버션수 : 클래스 내부에서는 접근 가능
