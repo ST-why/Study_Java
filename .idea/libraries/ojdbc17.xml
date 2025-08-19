@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ojdbc17">
+    <CLASSES>
+      <root url="jar:///Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/ojdbc17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
